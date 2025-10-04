@@ -1,10 +1,18 @@
-require('dotenv').config();
+// Only load dotenv if not in production (Railway provides env vars directly)
+if (!process.env.OPENSEA_API_KEY) {
+  require('dotenv').config();
+}
 const OpenSeaMonitor = require('./openSeaMonitor');
 const fs = require('fs').promises;
 const path = require('path');
 
 class ContinuousMonitor {
   constructor() {
+    console.log('Environment check:', {
+      hasApiKey: !!process.env.OPENSEA_API_KEY,
+      nodeEnv: process.env.NODE_ENV,
+      emailTo: process.env.EMAIL_TO ? 'configured' : 'missing'
+    });
     this.monitor = new OpenSeaMonitor(process.env.OPENSEA_API_KEY);
     this.alertHistory = [];
     this.highPriorityAlerts = [];
