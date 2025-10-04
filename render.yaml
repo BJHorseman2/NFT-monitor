@@ -1,0 +1,38 @@
+services:
+  - type: worker
+    name: nft-monitor
+    runtime: node
+    repo: https://github.com/YOUR_GITHUB_USERNAME/nft-monitor
+    buildCommand: npm install
+    startCommand: node continuousMonitor.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: OPENSEA_API_KEY
+        sync: false
+      - key: EMAIL_TO
+        sync: false
+      - key: EMAIL_USER
+        sync: false
+      - key: EMAIL_PASS
+        sync: false
+      - key: ANTHROPIC_API_KEY
+        sync: false
+
+  - type: worker
+    name: email-reporter
+    runtime: node
+    repo: https://github.com/YOUR_GITHUB_USERNAME/nft-monitor
+    buildCommand: npm install
+    startCommand: node emailReporter.js schedule
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: OPENSEA_API_KEY
+        sync: false
+      - key: EMAIL_TO
+        sync: false
+      - key: EMAIL_USER
+        sync: false
+      - key: EMAIL_PASS
+        sync: false

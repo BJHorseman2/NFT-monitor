@@ -1,0 +1,25 @@
+{
+  "name": "nft-market-intelligence",
+  "version": "1.0.0",
+  "description": "NFT Market Intelligence System with OpenSea monitoring",
+  "main": "continuousMonitor.js",
+  "scripts": {
+    "start": "node continuousMonitor.js",
+    "monitor": "node continuousMonitor.js",
+    "email": "node emailReporter.js schedule",
+    "test-email": "node emailReporter.js test",
+    "dashboard": "node dashboardGenerator.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "axios": "^1.12.2",
+    "cheerio": "^1.1.2",
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1",
+    "nodemailer": "^7.0.6"
+  }
+}

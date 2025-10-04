@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  nft-monitor:
+    image: node:18-alpine
+    container_name: nft-monitor
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - ./logs:/app/logs
+      - ./dashboard-reports:/app/dashboard-reports
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
+    command: node continuousMonitor.js
+    restart: unless-stopped
+    networks:
+      - nft-network
+
+  email-reporter:
+    image: node:18-alpine
+    container_name: email-reporter
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - ./dashboard-reports:/app/dashboard-reports
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .env
+    command: node emailReporter.js schedule
+    restart: unless-stopped
+    networks:
+      - nft-network
+
+networks:
+  nft-network:
+    driver: bridge

@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+monitoring-log.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dashboard reports (contain sensitive data)
+dashboard-reports/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+coverage/
+.nyc_output/
+
+# Build outputs
+dist/
+build/
