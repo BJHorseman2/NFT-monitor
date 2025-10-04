@@ -4,8 +4,10 @@
   "description": "NFT Market Intelligence System with OpenSea monitoring",
   "main": "continuousMonitor.js",
   "scripts": {
-    "start": "node continuousMonitor.js",
+    "start": "node combined-server.js",
     "monitor": "node continuousMonitor.js",
+    "server": "node server.js",
+    "combined": "node combined-server.js",
     "email": "node emailReporter.js schedule",
     "test-email": "node emailReporter.js test",
     "dashboard": "node dashboardGenerator.js"
@@ -19,6 +21,7 @@
     "axios": "^1.12.2",
     "cheerio": "^1.1.2",
     "dotenv": "^17.2.3",
+    "express": "^5.1.0",
     "node-cron": "^4.2.1",
     "nodemailer": "^7.0.6"
   }
