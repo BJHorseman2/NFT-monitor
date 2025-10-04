@@ -1,3 +1,8 @@
+// Debug environment variables
+console.log('All env vars available:', Object.keys(process.env).filter(k => !k.includes('PATH')));
+console.log('OPENSEA_API_KEY present?', !!process.env.OPENSEA_API_KEY);
+console.log('NODE_ENV:', process.env.NODE_ENV);
+
 // Only load dotenv if not in production (Railway provides env vars directly)
 if (!process.env.OPENSEA_API_KEY) {
   require('dotenv').config();
@@ -8,8 +13,9 @@ const path = require('path');
 
 class ContinuousMonitor {
   constructor() {
-    console.log('Environment check:', {
+    console.log('Environment check after dotenv:', {
       hasApiKey: !!process.env.OPENSEA_API_KEY,
+      apiKeyLength: process.env.OPENSEA_API_KEY ? process.env.OPENSEA_API_KEY.length : 0,
       nodeEnv: process.env.NODE_ENV,
       emailTo: process.env.EMAIL_TO ? 'configured' : 'missing'
     });
