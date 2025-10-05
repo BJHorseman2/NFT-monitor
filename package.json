@@ -4,7 +4,7 @@
   "description": "NFT Market Intelligence System with OpenSea monitoring",
   "main": "continuousMonitor.js",
   "scripts": {
-    "start": "node working-server.js",
+    "start": "node full-server.js",
     "monitor": "node continuousMonitor.js",
     "server": "node server.js",
     "combined": "node combined-server.js",
