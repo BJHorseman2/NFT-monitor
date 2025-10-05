@@ -7,7 +7,7 @@ const fs = require('fs').promises;
 const DashboardGenerator = require('./dashboardGenerator');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080; // Railway provides PORT automatically
 
 // Initialize services
 const dashboardGen = new DashboardGenerator();
