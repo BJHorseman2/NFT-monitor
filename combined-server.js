@@ -5,20 +5,24 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs').promises;
 const DashboardGenerator = require('./dashboardGenerator');
-const ContinuousMonitor = require('./continuousMonitor');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Initialize services
 const dashboardGen = new DashboardGenerator();
-const monitor = new ContinuousMonitor();
 
-// Start the continuous monitor in the background
+// Import and start monitor separately to avoid circular dependency
 async function startMonitor() {
   console.log('🚀 Starting NFT monitor in background...');
+  const ContinuousMonitor = require('./continuousMonitor');
+  const monitor = new ContinuousMonitor();
   await monitor.initialize();
-  await monitor.start();
+
+  // Start the scanning loop
+  monitor.start().catch(err => {
+    console.error('Monitor error (non-fatal):', err);
+  });
 }
 
 // Serve static files
