@@ -1,0 +1,1601 @@
+{
+  "lastUpdate": "2025-10-05T00:24:23.828Z",
+  "alertHistory": [
+    {
+      "timestamp": "2025-10-03T04:50:35.941Z",
+      "totalAlerts": 12,
+      "highPriorityCount": 2,
+      "alerts": [
+        {
+          "time": "2025-10-03T04:50:35.940Z",
+          "collection": "hypurr-hyperevm",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (206 vs 65)"
+        },
+        {
+          "time": "2025-10-03T04:50:35.940Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8550.0%"
+        },
+        {
+          "time": "2025-10-03T04:50:35.940Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (1027 vs 73)"
+        },
+        {
+          "time": "2025-10-03T04:50:35.940Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 21.2%"
+        },
+        {
+          "time": "2025-10-03T04:50:35.940Z",
+          "collection": "cryptopunks",
+          "type": "FLOOR_DUMP",
+          "severity": "HIGH",
+          "message": "Floor dumped 90.6%"
+        },
+        {
+          "time": "2025-10-03T04:50:35.941Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (581 vs 86)"
+        },
+        {
+          "time": "2025-10-03T04:50:35.941Z",
+          "collection": "milady",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (316 vs 28)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T05:10:48.196Z",
+      "totalAlerts": 12,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-03T05:10:48.195Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (1004 vs 73)"
+        },
+        {
+          "time": "2025-10-03T05:10:48.195Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 20.3%"
+        },
+        {
+          "time": "2025-10-03T05:10:48.195Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8539.4%"
+        },
+        {
+          "time": "2025-10-03T05:10:48.196Z",
+          "collection": "cryptopunks",
+          "type": "FLOOR_DUMP",
+          "severity": "HIGH",
+          "message": "Floor dumped 90.6%"
+        },
+        {
+          "time": "2025-10-03T05:10:48.196Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (576 vs 86)"
+        },
+        {
+          "time": "2025-10-03T05:10:48.196Z",
+          "collection": "milady",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (317 vs 28)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T05:30:48.091Z",
+      "totalAlerts": 12,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-03T05:30:48.090Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (1007 vs 73)"
+        },
+        {
+          "time": "2025-10-03T05:30:48.090Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 20.3%"
+        },
+        {
+          "time": "2025-10-03T05:30:48.090Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8527.2%"
+        },
+        {
+          "time": "2025-10-03T05:30:48.091Z",
+          "collection": "cryptopunks",
+          "type": "FLOOR_DUMP",
+          "severity": "HIGH",
+          "message": "Floor dumped 90.6%"
+        },
+        {
+          "time": "2025-10-03T05:30:48.091Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (577 vs 86)"
+        },
+        {
+          "time": "2025-10-03T05:30:48.091Z",
+          "collection": "milady",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (317 vs 28)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T05:50:48.181Z",
+      "totalAlerts": 13,
+      "highPriorityCount": 2,
+      "alerts": [
+        {
+          "time": "2025-10-03T05:50:48.181Z",
+          "collection": "base-emoji",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (42845 vs 12617)"
+        },
+        {
+          "time": "2025-10-03T05:50:48.181Z",
+          "collection": "base-emoji",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 22.4%"
+        },
+        {
+          "time": "2025-10-03T05:50:48.181Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (1010 vs 73)"
+        },
+        {
+          "time": "2025-10-03T05:50:48.181Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 21.9%"
+        },
+        {
+          "time": "2025-10-03T05:50:48.181Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8543.5%"
+        },
+        {
+          "time": "2025-10-03T05:50:48.181Z",
+          "collection": "cryptopunks",
+          "type": "FLOOR_DUMP",
+          "severity": "HIGH",
+          "message": "Floor dumped 90.6%"
+        },
+        {
+          "time": "2025-10-03T05:50:48.181Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (579 vs 86)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T06:43:30.345Z",
+      "totalAlerts": 11,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-03T06:43:30.344Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (975 vs 73)"
+        },
+        {
+          "time": "2025-10-03T06:43:30.344Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 22.5%"
+        },
+        {
+          "time": "2025-10-03T06:43:30.344Z",
+          "collection": "cryptopunks",
+          "type": "FLOOR_DUMP",
+          "severity": "HIGH",
+          "message": "Floor dumped 90.6%"
+        },
+        {
+          "time": "2025-10-03T06:43:30.344Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8451.3%"
+        },
+        {
+          "time": "2025-10-03T06:43:30.344Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (583 vs 86)"
+        },
+        {
+          "time": "2025-10-03T06:43:30.345Z",
+          "collection": "milady",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (318 vs 28)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T06:56:19.426Z",
+      "totalAlerts": 11,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-03T06:56:19.426Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (975 vs 73)"
+        },
+        {
+          "time": "2025-10-03T06:56:19.426Z",
+          "collection": "critters-quest-blind-box-x12",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 22.6%"
+        },
+        {
+          "time": "2025-10-03T06:56:19.426Z",
+          "collection": "cryptopunks",
+          "type": "FLOOR_DUMP",
+          "severity": "HIGH",
+          "message": "Floor dumped 90.6%"
+        },
+        {
+          "time": "2025-10-03T06:56:19.426Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8346.7%"
+        },
+        {
+          "time": "2025-10-03T06:56:19.426Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (588 vs 87)"
+        },
+        {
+          "time": "2025-10-03T06:56:19.426Z",
+          "collection": "milady",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (318 vs 28)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T15:54:16.460Z",
+      "totalAlerts": 10,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-03T15:54:16.459Z",
+          "collection": "base-emoji",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (56714 vs 13180)"
+        },
+        {
+          "time": "2025-10-03T15:54:16.459Z",
+          "collection": "base-emoji",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 39.8%"
+        },
+        {
+          "time": "2025-10-03T15:54:16.459Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8144.9%"
+        },
+        {
+          "time": "2025-10-03T15:54:16.459Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (411 vs 93)"
+        },
+        {
+          "time": "2025-10-03T15:54:16.460Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (110213 vs 4250)"
+        },
+        {
+          "time": "2025-10-03T15:54:16.460Z",
+          "collection": "boredapeyachtclub",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (31 vs 10)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T16:15:27.883Z",
+      "totalAlerts": 10,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-03T16:15:27.882Z",
+          "collection": "base-emoji",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (49693 vs 13228)"
+        },
+        {
+          "time": "2025-10-03T16:15:27.882Z",
+          "collection": "base-emoji",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 28.5%"
+        },
+        {
+          "time": "2025-10-03T16:15:27.882Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8239.0%"
+        },
+        {
+          "time": "2025-10-03T16:15:27.882Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (402 vs 93)"
+        },
+        {
+          "time": "2025-10-03T16:15:27.883Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (109660 vs 4323)"
+        },
+        {
+          "time": "2025-10-03T16:15:27.883Z",
+          "collection": "boredapeyachtclub",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (32 vs 10)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T17:10:21.230Z",
+      "totalAlerts": 10,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-03T17:10:21.229Z",
+          "collection": "base-emoji",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (45980 vs 13277)"
+        },
+        {
+          "time": "2025-10-03T17:10:21.229Z",
+          "collection": "base-emoji",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 35.2%"
+        },
+        {
+          "time": "2025-10-03T17:10:21.229Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8199.6%"
+        },
+        {
+          "time": "2025-10-03T17:10:21.229Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (422 vs 95)"
+        },
+        {
+          "time": "2025-10-03T17:10:21.230Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (112868 vs 4515)"
+        },
+        {
+          "time": "2025-10-03T17:10:21.230Z",
+          "collection": "boredapeyachtclub",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (34 vs 10)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T17:30:21.538Z",
+      "totalAlerts": 10,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-03T17:30:21.537Z",
+          "collection": "base-emoji",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (46214 vs 13285)"
+        },
+        {
+          "time": "2025-10-03T17:30:21.537Z",
+          "collection": "base-emoji",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 31.6%"
+        },
+        {
+          "time": "2025-10-03T17:30:21.538Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8191.8%"
+        },
+        {
+          "time": "2025-10-03T17:30:21.538Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (431 vs 95)"
+        },
+        {
+          "time": "2025-10-03T17:30:21.538Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (115199 vs 4593)"
+        },
+        {
+          "time": "2025-10-03T17:30:21.538Z",
+          "collection": "boredapeyachtclub",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (33 vs 10)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T17:50:21.319Z",
+      "totalAlerts": 10,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-03T17:50:21.319Z",
+          "collection": "base-emoji",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (46567 vs 13296)"
+        },
+        {
+          "time": "2025-10-03T17:50:21.319Z",
+          "collection": "base-emoji",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 29.5%"
+        },
+        {
+          "time": "2025-10-03T17:50:21.319Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8190.0%"
+        },
+        {
+          "time": "2025-10-03T17:50:21.319Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (435 vs 95)"
+        },
+        {
+          "time": "2025-10-03T17:50:21.319Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (117123 vs 4657)"
+        },
+        {
+          "time": "2025-10-03T17:50:21.319Z",
+          "collection": "boredapeyachtclub",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (33 vs 10)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T19:01:49.881Z",
+      "totalAlerts": 9,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-03T19:01:49.880Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 7955.5%"
+        },
+        {
+          "time": "2025-10-03T19:01:49.880Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (389 vs 96)"
+        },
+        {
+          "time": "2025-10-03T19:01:49.881Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (120790 vs 4858)"
+        },
+        {
+          "time": "2025-10-03T19:01:49.881Z",
+          "collection": "mutant-ape-yacht-club",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (96 vs 30)"
+        },
+        {
+          "time": "2025-10-03T19:01:49.881Z",
+          "collection": "moonbirds-mythics",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (256 vs 58)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T20:33:59.286Z",
+      "totalAlerts": 10,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-03T20:33:59.286Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8210.2%"
+        },
+        {
+          "time": "2025-10-03T20:33:59.286Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (364 vs 96)"
+        },
+        {
+          "time": "2025-10-03T20:33:59.286Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (126924 vs 5213)"
+        },
+        {
+          "time": "2025-10-03T20:33:59.286Z",
+          "collection": "moonbirds-mythics",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (270 vs 59)"
+        },
+        {
+          "time": "2025-10-03T20:33:59.286Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (106 vs 33)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T21:26:12.768Z",
+      "totalAlerts": 12,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-03T21:26:12.768Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8300.6%"
+        },
+        {
+          "time": "2025-10-03T21:26:12.768Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (352 vs 96)"
+        },
+        {
+          "time": "2025-10-03T21:26:12.768Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (128696 vs 5314)"
+        },
+        {
+          "time": "2025-10-03T21:26:12.768Z",
+          "collection": "mutant-ape-yacht-club",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (90 vs 30)"
+        },
+        {
+          "time": "2025-10-03T21:26:12.768Z",
+          "collection": "moonbirds-mythics",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (291 vs 59)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T21:46:12.979Z",
+      "totalAlerts": 12,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-03T21:46:12.979Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8257.5%"
+        },
+        {
+          "time": "2025-10-03T21:46:12.979Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (360 vs 96)"
+        },
+        {
+          "time": "2025-10-03T21:46:12.979Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (129841 vs 5353)"
+        },
+        {
+          "time": "2025-10-03T21:46:12.979Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (125 vs 34)"
+        },
+        {
+          "time": "2025-10-03T21:46:12.979Z",
+          "collection": "mutant-ape-yacht-club",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (91 vs 30)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T22:06:12.455Z",
+      "totalAlerts": 11,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-03T22:06:12.454Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8248.4%"
+        },
+        {
+          "time": "2025-10-03T22:06:12.454Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (360 vs 96)"
+        },
+        {
+          "time": "2025-10-03T22:06:12.455Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (129848 vs 5388)"
+        },
+        {
+          "time": "2025-10-03T22:06:12.455Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (125 vs 34)"
+        },
+        {
+          "time": "2025-10-03T22:06:12.455Z",
+          "collection": "mutant-ape-yacht-club",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (92 vs 30)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T22:26:12.518Z",
+      "totalAlerts": 11,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-03T22:26:12.517Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8235.1%"
+        },
+        {
+          "time": "2025-10-03T22:26:12.518Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (345 vs 96)"
+        },
+        {
+          "time": "2025-10-03T22:26:12.518Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (131027 vs 5428)"
+        },
+        {
+          "time": "2025-10-03T22:26:12.518Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (130 vs 34)"
+        },
+        {
+          "time": "2025-10-03T22:26:12.518Z",
+          "collection": "mutant-ape-yacht-club",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (92 vs 30)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T22:46:12.505Z",
+      "totalAlerts": 12,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-03T22:46:12.504Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8251.3%"
+        },
+        {
+          "time": "2025-10-03T22:46:12.505Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (346 vs 96)"
+        },
+        {
+          "time": "2025-10-03T22:46:12.505Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (131965 vs 5459)"
+        },
+        {
+          "time": "2025-10-03T22:46:12.505Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (132 vs 34)"
+        },
+        {
+          "time": "2025-10-03T22:46:12.505Z",
+          "collection": "mutant-ape-yacht-club",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (92 vs 30)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T23:06:12.699Z",
+      "totalAlerts": 11,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-03T23:06:12.698Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8242.1%"
+        },
+        {
+          "time": "2025-10-03T23:06:12.698Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (342 vs 97)"
+        },
+        {
+          "time": "2025-10-03T23:06:12.698Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (132018 vs 5499)"
+        },
+        {
+          "time": "2025-10-03T23:06:12.698Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (133 vs 34)"
+        },
+        {
+          "time": "2025-10-03T23:06:12.699Z",
+          "collection": "mutant-ape-yacht-club",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (92 vs 30)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-03T23:44:28.224Z",
+      "totalAlerts": 11,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-03T23:44:28.223Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8152.3%"
+        },
+        {
+          "time": "2025-10-03T23:44:28.223Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (343 vs 97)"
+        },
+        {
+          "time": "2025-10-03T23:44:28.223Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (134178 vs 5571)"
+        },
+        {
+          "time": "2025-10-03T23:44:28.224Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (136 vs 34)"
+        },
+        {
+          "time": "2025-10-03T23:44:28.224Z",
+          "collection": "mutant-ape-yacht-club",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (91 vs 30)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T02:01:30.438Z",
+      "totalAlerts": 8,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-04T02:01:30.438Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8016.8%"
+        },
+        {
+          "time": "2025-10-04T02:01:30.438Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (336 vs 95)"
+        },
+        {
+          "time": "2025-10-04T02:01:30.438Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (131176 vs 5847)"
+        },
+        {
+          "time": "2025-10-04T02:01:30.438Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (166 vs 35)"
+        },
+        {
+          "time": "2025-10-04T02:01:30.438Z",
+          "collection": "moonbirds-mythics",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (284 vs 59)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T06:23:07.186Z",
+      "totalAlerts": 8,
+      "highPriorityCount": 0,
+      "alerts": [
+        {
+          "time": "2025-10-04T06:23:07.186Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8061.7%"
+        },
+        {
+          "time": "2025-10-04T06:23:07.186Z",
+          "collection": "moonbirds",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (321 vs 96)"
+        },
+        {
+          "time": "2025-10-04T06:23:07.186Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (143017 vs 7015)"
+        },
+        {
+          "time": "2025-10-04T06:23:07.186Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (171 vs 35)"
+        },
+        {
+          "time": "2025-10-04T06:23:07.186Z",
+          "collection": "moonbirds-mythics",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (277 vs 60)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T18:15:30.192Z",
+      "totalAlerts": 9,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-04T18:15:30.191Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (130851 vs 9255)"
+        },
+        {
+          "time": "2025-10-04T18:15:30.191Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 36.6%"
+        },
+        {
+          "time": "2025-10-04T18:15:30.191Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8608.5%"
+        },
+        {
+          "time": "2025-10-04T18:15:30.191Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (182 vs 38)"
+        },
+        {
+          "time": "2025-10-04T18:15:30.191Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (38271 vs 1837)"
+        },
+        {
+          "time": "2025-10-04T18:15:30.192Z",
+          "collection": "azuki",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (63 vs 18)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T18:45:57.173Z",
+      "totalAlerts": 8,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-04T18:45:57.172Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (132077 vs 9296)"
+        },
+        {
+          "time": "2025-10-04T18:45:57.172Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 33.0%"
+        },
+        {
+          "time": "2025-10-04T18:45:57.173Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8551.0%"
+        },
+        {
+          "time": "2025-10-04T18:45:57.173Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (164 vs 38)"
+        },
+        {
+          "time": "2025-10-04T18:45:57.173Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (38369 vs 1841)"
+        },
+        {
+          "time": "2025-10-04T18:45:57.173Z",
+          "collection": "azuki",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (67 vs 18)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T19:24:04.652Z",
+      "totalAlerts": 8,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-04T19:24:04.652Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (127678 vs 9366)"
+        },
+        {
+          "time": "2025-10-04T19:24:04.652Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 33.7%"
+        },
+        {
+          "time": "2025-10-04T19:24:04.652Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8598.1%"
+        },
+        {
+          "time": "2025-10-04T19:24:04.652Z",
+          "collection": "cryptopunks",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (13 vs 4)"
+        },
+        {
+          "time": "2025-10-04T19:24:04.652Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (165 vs 38)"
+        },
+        {
+          "time": "2025-10-04T19:24:04.652Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (38208 vs 1848)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T19:44:04.645Z",
+      "totalAlerts": 8,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-04T19:44:04.644Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (128742 vs 9402)"
+        },
+        {
+          "time": "2025-10-04T19:44:04.644Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 34.1%"
+        },
+        {
+          "time": "2025-10-04T19:44:04.644Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8600.0%"
+        },
+        {
+          "time": "2025-10-04T19:44:04.645Z",
+          "collection": "cryptopunks",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (13 vs 4)"
+        },
+        {
+          "time": "2025-10-04T19:44:04.645Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (165 vs 38)"
+        },
+        {
+          "time": "2025-10-04T19:44:04.645Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (38245 vs 1849)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T22:24:23.655Z",
+      "totalAlerts": 9,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-04T22:24:23.654Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (123010 vs 9587)"
+        },
+        {
+          "time": "2025-10-04T22:24:23.654Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 33.1%"
+        },
+        {
+          "time": "2025-10-04T22:24:23.654Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8575.8%"
+        },
+        {
+          "time": "2025-10-04T22:24:23.655Z",
+          "collection": "cryptopunks",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (15 vs 4)"
+        },
+        {
+          "time": "2025-10-04T22:24:23.655Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (133 vs 38)"
+        },
+        {
+          "time": "2025-10-04T22:24:23.655Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (37703 vs 1868)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T22:44:23.579Z",
+      "totalAlerts": 9,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-04T22:44:23.579Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (123463 vs 9602)"
+        },
+        {
+          "time": "2025-10-04T22:44:23.579Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 34.5%"
+        },
+        {
+          "time": "2025-10-04T22:44:23.579Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8592.7%"
+        },
+        {
+          "time": "2025-10-04T22:44:23.579Z",
+          "collection": "cryptopunks",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (15 vs 4)"
+        },
+        {
+          "time": "2025-10-04T22:44:23.579Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (135 vs 38)"
+        },
+        {
+          "time": "2025-10-04T22:44:23.579Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (37777 vs 1871)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T23:04:23.627Z",
+      "totalAlerts": 10,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-04T23:04:23.627Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (120639 vs 9620)"
+        },
+        {
+          "time": "2025-10-04T23:04:23.627Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 34.3%"
+        },
+        {
+          "time": "2025-10-04T23:04:23.627Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8650.7%"
+        },
+        {
+          "time": "2025-10-04T23:04:23.627Z",
+          "collection": "cryptopunks",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (15 vs 4)"
+        },
+        {
+          "time": "2025-10-04T23:04:23.627Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (131 vs 38)"
+        },
+        {
+          "time": "2025-10-04T23:04:23.627Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (37587 vs 1872)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T23:24:23.550Z",
+      "totalAlerts": 9,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-04T23:24:23.549Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (121179 vs 9638)"
+        },
+        {
+          "time": "2025-10-04T23:24:23.550Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 34.4%"
+        },
+        {
+          "time": "2025-10-04T23:24:23.550Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8561.7%"
+        },
+        {
+          "time": "2025-10-04T23:24:23.550Z",
+          "collection": "cryptopunks",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (15 vs 4)"
+        },
+        {
+          "time": "2025-10-04T23:24:23.550Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (131 vs 38)"
+        },
+        {
+          "time": "2025-10-04T23:24:23.550Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (37614 vs 1873)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-04T23:44:23.632Z",
+      "totalAlerts": 9,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-04T23:44:23.631Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (121703 vs 9655)"
+        },
+        {
+          "time": "2025-10-04T23:44:23.631Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 34.5%"
+        },
+        {
+          "time": "2025-10-04T23:44:23.631Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8600.1%"
+        },
+        {
+          "time": "2025-10-04T23:44:23.631Z",
+          "collection": "cryptopunks",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (15 vs 4)"
+        },
+        {
+          "time": "2025-10-04T23:44:23.631Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (131 vs 38)"
+        },
+        {
+          "time": "2025-10-04T23:44:23.632Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (37668 vs 1875)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-05T00:04:23.615Z",
+      "totalAlerts": 9,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-05T00:04:23.615Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (119088 vs 9667)"
+        },
+        {
+          "time": "2025-10-05T00:04:23.615Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 36.0%"
+        },
+        {
+          "time": "2025-10-05T00:04:23.615Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8688.3%"
+        },
+        {
+          "time": "2025-10-05T00:04:23.615Z",
+          "collection": "cryptopunks",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (15 vs 4)"
+        },
+        {
+          "time": "2025-10-05T00:04:23.615Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (131 vs 38)"
+        },
+        {
+          "time": "2025-10-05T00:04:23.615Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (37516 vs 1875)"
+        }
+      ]
+    },
+    {
+      "timestamp": "2025-10-05T00:24:23.640Z",
+      "totalAlerts": 9,
+      "highPriorityCount": 1,
+      "alerts": [
+        {
+          "time": "2025-10-05T00:24:23.640Z",
+          "collection": "pixcatsbase",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (119396 vs 9678)"
+        },
+        {
+          "time": "2025-10-05T00:24:23.640Z",
+          "collection": "pixcatsbase",
+          "type": "FLOOR_DUMP",
+          "severity": "MEDIUM",
+          "message": "Floor dumped 37.6%"
+        },
+        {
+          "time": "2025-10-05T00:24:23.640Z",
+          "collection": "hypurr-hyperevm",
+          "type": "FLOOR_PUMP",
+          "severity": "HIGH",
+          "message": "Floor pumped 8702.9%"
+        },
+        {
+          "time": "2025-10-05T00:24:23.640Z",
+          "collection": "cryptopunks",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (13 vs 4)"
+        },
+        {
+          "time": "2025-10-05T00:24:23.640Z",
+          "collection": "doodles-official",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (125 vs 38)"
+        },
+        {
+          "time": "2025-10-05T00:24:23.640Z",
+          "collection": "larvva-lads",
+          "type": "SALES_SPIKE",
+          "severity": "HIGH",
+          "message": "Sales 3x above 30-day average (37581 vs 1877)"
+        }
+      ]
+    }
+  ],
+  "highPriorityAlerts": [
+    {
+      "collection": "hypurr-hyperevm",
+      "firstSeen": "2025-10-03T04:50:35.939Z",
+      "riskScore": 80,
+      "recommendation": {
+        "action": "BUY",
+        "reasoning": "Multiple strong bullish signals detected",
+        "confidence": "HIGH"
+      }
+    },
+    {
+      "collection": "critters-quest-blind-box-x12",
+      "firstSeen": "2025-10-03T04:50:35.940Z",
+      "riskScore": 60,
+      "recommendation": {
+        "action": "WAIT",
+        "reasoning": "Price declining, wait for stabilization",
+        "confidence": "MEDIUM"
+      }
+    },
+    {
+      "collection": "base-emoji",
+      "firstSeen": "2025-10-03T05:50:48.181Z",
+      "riskScore": 60,
+      "recommendation": {
+        "action": "WAIT",
+        "reasoning": "Price declining, wait for stabilization",
+        "confidence": "MEDIUM"
+      }
+    },
+    {
+      "collection": "pixcatsbase",
+      "firstSeen": "2025-10-04T18:15:30.191Z",
+      "riskScore": 60,
+      "recommendation": {
+        "action": "WAIT",
+        "reasoning": "Price declining, wait for stabilization",
+        "confidence": "MEDIUM"
+      }
+    }
+  ]
+}

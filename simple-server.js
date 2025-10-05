@@ -1,12 +1,27 @@
 const express = require('express');
+const fs = require('fs').promises;
+const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 console.log('Starting server on port:', PORT);
 
 // Root route
-app.get('/', (req, res) => {
+app.get('/', async (req, res) => {
   console.log('Request received at /');
+
+  // Try to load monitoring data
+  let alertData = { highPriorityAlerts: [], alertHistory: [] };
+  try {
+    const data = await fs.readFile('monitoring-log.json', 'utf8');
+    alertData = JSON.parse(data);
+  } catch (e) {
+    // No data yet
+  }
+
+  const alerts = alertData.highPriorityAlerts || [];
+  const history = alertData.alertHistory || [];
+
   res.send(`
     <!DOCTYPE html>
     <html>
