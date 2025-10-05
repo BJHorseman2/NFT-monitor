@@ -121,11 +121,11 @@ app.get('/health', (req, res) => {
 
 // Start everything
 async function main() {
-  // Start monitor
-  await startMonitor();
+  // Start monitor in background (don't await)
+  startMonitor().catch(console.error);
 
-  // Start web server
-  app.listen(PORT, () => {
+  // Start web server immediately
+  app.listen(PORT, '0.0.0.0', () => {
     console.log(`
 ╔════════════════════════════════════════════════════════╗
 ║                                                        ║
