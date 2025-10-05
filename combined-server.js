@@ -7,7 +7,8 @@ const fs = require('fs').promises;
 const DashboardGenerator = require('./dashboardGenerator');
 
 const app = express();
-const PORT = process.env.PORT || 8080; // Railway provides PORT automatically
+// Railway automatically provides PORT - we MUST use it
+const PORT = process.env.PORT || 3000;
 
 // Initialize services
 const dashboardGen = new DashboardGenerator();
@@ -130,7 +131,7 @@ async function main() {
 ║                                                        ║
 ║      🚀 NFT MARKET INTELLIGENCE SYSTEM ONLINE         ║
 ║                                                        ║
-║      Public Dashboard: http://localhost:${PORT}           ║
+║      Internal Port: ${PORT}                              ║
 ║                                                        ║
 ║      Railway will provide public URL:                 ║
 ║      https://[your-app].railway.app                   ║
